@@ -22,7 +22,7 @@ Copy the two voice models (\*.pmdl) files into your Magic Mirror directory (defa
 
 `cp voicemodels/*.pmdl ~/MagicMirror` -- Editor note **************Double check *****************
 
-Edit the config.js file (Ctrl  + w to save):
+Edit the config.js file (Ctrl  + O to save and Ctrl + X to exit):
 
 `nano ~/MagicMirror/config/config.js`
 
