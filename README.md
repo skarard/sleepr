@@ -1,5 +1,5 @@
-# Sleepr
-A Magic Mirror 2 Module for sending to sleep and waking up all modules via notifications. Orginally designed for use with Alex Yak's voice control (https://github.com/alexyak/voicecontrol).
+# Module: Sleepr
+A Magic Mirror 2 Module for hiding and showing all modules via notifications. Orginally designed for use with Alex Yak's voice control (https://github.com/alexyak/voicecontrol).
 
 ## Using the module
 
