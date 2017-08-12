@@ -1,5 +1,5 @@
 # Sleepr
-A Magic Mirror 2 Module for sending to sleep and waking up all modules via notifications. Works with Alex Yak's voice control (https://github.com/alexyak/voicecontrol) and PtrBld's MMM-Button (https://github.com/ptrbld/MMM-Button).
+A Magic Mirror 2 Module for sending to sleep and waking up all modules via notifications. Orginally designed for use with Alex Yak's voice control (https://github.com/alexyak/voicecontrol).
 
 ## Using the module
 
