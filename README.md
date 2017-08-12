@@ -29,18 +29,18 @@ Edit the config.js file (Ctrl  + w to save):
 Add this to the modules array in the `config/config.js`:
 
 ````javascript
-		{
-			module: "sleepr",
-			position: "lower_third",
-			config: {
-				// The speed of the hide and show animation.
-				animationSpeed: 1000,
-				// Sleeping Message - Hint at the keyword
-				sleeping: "I'm asleep, did you want me to \"Wake Up\"?",
-				// Awake Message - Hint at the keyword
-				awake: "I'm awake, did you want me to go to \"Sleep\"?"
-			}
-		},
+{
+	module: "sleepr",
+	position: "lower_third",
+	config: {
+		// The speed of the hide and show animation.
+		animationSpeed: 1000,
+		// Sleeping Message - Hint at the keyword
+		sleeping: "I'm asleep, did you want me to \"Wake Up\"?",
+		// Awake Message - Hint at the keyword
+		awake: "I'm awake, did you want me to go to \"Sleep\"?"
+	}
+},
 ````
 
 Restart the program (default: pm2 restart MagicMirror)
@@ -59,24 +59,24 @@ Wake-up: wakeup.pmdl (https://snowboy.kitt.ai/hotword/4531)
 Below is an example of how I set up Alex Yak's voice control in `config/config.js`.
 
 ````javascript
-		{
-		module: 'voicecontrol',
-		position: 'bottom_left',
-		config: {
-			models: [
-					{
-						keyword: "wakeup",   // keyword 
-						description: "Say \"Wake up\" and the display with wake up.",
-						file: "wakeup.pmdl", // trained model file name
-						message: "WAKEUP"   // notification message that's broadcast in the MagicMirror app
-					},
-										{
-						keyword: "sleep",   // keyword 
-						description: "Say \"Sleep\" and the display will sleep.",
-						file: "sleep.pmdl", // trained model file name
-						message: "SLEEP"   // notification message that's broadcast in the MagicMirror app
-					},
-					]
-				}
-		},
+{
+module: 'voicecontrol',
+position: 'bottom_left',
+config: {
+	models: [
+			{
+				keyword: "wakeup",   // keyword 
+				description: "Say \"Wake up\" and the display with wake up.",
+				file: "wakeup.pmdl", // trained model file name
+				message: "WAKEUP"   // notification message that's broadcast in the MagicMirror app
+			},
+								{
+				keyword: "sleep",   // keyword 
+				description: "Say \"Sleep\" and the display will sleep.",
+				file: "sleep.pmdl", // trained model file name
+				message: "SLEEP"   // notification message that's broadcast in the MagicMirror app
+			},
+			]
+		}
+},
 ````
